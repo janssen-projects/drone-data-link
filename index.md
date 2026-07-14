@@ -12,7 +12,7 @@ The goal of this experiment was to map the signal degradation of an autonomous U
 ---
 
 ## 2. Methodology & Data Pipeline
-A standard consumer UAV (DJI Mini 4 Pro) was utilized as a mobile RF probe. Telemetry packets were extracted from non-volatile flight controller storage via a custom Python data pipeline.
+A standard consumer UAV (DJI Mini 4 Pro) was utilized as a mobile RF probe. Telemetry packets were extracted from flight controller storage via a custom Python data pipeline.
 
 
 ---
