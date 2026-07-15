@@ -5,9 +5,9 @@ An empirical analysis of a 2.4/5.8 GHz FHSS drone telemetry link (DJI OcuSync) u
 ---
 
 ## 1. Executive Summary & Objective
-The goal of this experiment was to map the signal degradation of an autonomous UAV data link during a linear Beyond-Visual-Line-of-Sight (BVLOS) flight profile and correlate sudden drops in Signal Quality (RSSI/SNR equivalent) with a known physical obstacle (a building, height $\approx 7\,\text{m}$ at a baseline distance of $55\,\text{m}$).
+The goal of this experiment was to map the signal degradation of an autonomous UAV data link during a linear Beyond-Visual-Line-of-Sight flight profile and correlate sudden drops in Signal Quality (RSSI/SNR equivalent) with a known physical obstacle (a building, height ca. 7 m at a baseline distance of 55 m).
 
-**Key Finding:** Signal degradation did not occur at the obstacle’s ground coordinates ($ x = 55\,\text{m} $), but precisely at a 3D line-of-sight (LOS) intersection point further downrange, validating edge-diffraction and Fresnel zone clearance boundaries.
+**Key Finding:** Signal degradation did not occur at the obstacle’s ground coordinates (x = 55 m), but precisely at a 3D line-of-sight  intersection point further downrange, validating edge-diffraction and Fresnel zone clearance boundaries.
 
 ---
 
