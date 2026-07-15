@@ -26,7 +26,7 @@ $$ c = 2\cdot\operatorname{atan2}(\sqrt{a}, \sqrt{1-a}), \quad d_{2D} = R\cdot c
 * **True Slant Range ($d_{3D}$):** Derived via the Pythagorean theorem using normalized altitude $h$:
 $$ d_{3D} = \sqrt{d_{2D}^2 + h^2} $$
 
-* **Critical Geometric LOS Threshold ($y_{crit}$):** Defined by the line intercept over the building's peak ($x_{obstacle} = 55\,\text{m}, y_{obstacle} = 7\,\text{m}$):
+* **Critical Geometric line of sight Threshold ($y_{crit}$):** Defined by the line intercept over the building's peak ($x_{obstacle} = 55\,\text{m}, y_{obstacle} = 7\,\text{m}$):
 $$ y_{crit}(x) = \frac{7}{55} \cdot x_{2D} \approx 0.127 \cdot x_{2D} $$
 
 ---
@@ -45,7 +45,7 @@ The upper plot isolates the signal hysteresis. The distinct variance between out
 The lower plot models the side profile. The physical intercept point perfectly aligns with the link termination zone.
 
 ![Geometric Cross-Section Side View](assets/graph2.png)
-*Figure 2: 2D side view showing the UAV trajectory dropping below the critical roof-line LOS into the RF shadow zone.*
+*Figure 2: 2D side view showing the UAV trajectory dropping below the critical roof-line line of sight into the RF shadow zone.*
 
 ---
 
