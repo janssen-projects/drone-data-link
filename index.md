@@ -1,3 +1,16 @@
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 # Case Study: 3D RF Datalink Mapping & Obstacle Validation
 
 An empirical analysis of a 2.4/5.8 GHz FHSS drone telemetry link (DJI OcuSync) under Non-Line-of-Sight (NLOS) conditions. This project demonstrates end-to-end data pipeline engineering: from raw flight-log extraction and geospatial processing to geometric sensor fusion and hardware limitation diagnostics.
