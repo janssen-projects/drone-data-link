@@ -20,14 +20,13 @@ A standard consumer UAV (DJI Mini 4 Pro) was utilized as a mobile RF probe. Tele
 ### Mathematical Formulations:
 
 * **Horizontal Distance ($d_{2D}$):** Computed via the *Haversine Formula* to account for earth curvature over geospatial coordinate vectors:
-$$ a = \sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta\lambda}{2}\right) $$
-$$ c = 2\cdot\operatorname{atan2}(\sqrt{a}, \sqrt{1-a}), \quad d_{2D} = R\cdot c $$
+![horizontal distance](assets/form1.png)
 
-* **True Slant Range ($d_{3D}$):** Derived via the Pythagorean theorem using normalized altitude $h$:
-$$ d_{3D} = \sqrt{d_{2D}^2 + h^2} $$
+* **True Slant Range ($d_{3D}$):** Derived via the Pythagorean theorem using normalized altitude h:
+![true range](assets/form2.png)
 
 * **Critical Geometric line of sight Threshold ($y_{crit}$):** Defined by the line intercept over the building's peak ($x_{obstacle} = 55\,\text{m}, y_{obstacle} = 7\,\text{m}$):
-$$ y_{crit}(x) = \frac{7}{55} \cdot x_{2D} \approx 0.127 \cdot x_{2D} $$
+![los threshold](assets/form3.png)
 
 ---
 
